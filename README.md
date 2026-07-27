@@ -1,4 +1,4 @@
-# Mohammad Gheshlaghi Azar — personal website
+# Mohammad Gheshlaghi Azar: personal website
 
 A lightweight, responsive personal site hosted with GitHub Pages.
 
