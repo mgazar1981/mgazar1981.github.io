@@ -514,39 +514,6 @@
       font-size: 0.95rem;
     }
 
-    .closing {
-      padding: 110px 0;
-      background: var(--ink);
-      color: #fff;
-    }
-
-    .closing-grid {
-      display: grid;
-      grid-template-columns: 1.2fr 0.8fr;
-      align-items: end;
-      gap: 60px;
-    }
-
-    .closing h2 {
-      max-width: 760px;
-      margin-bottom: 0;
-      font-size: clamp(2.6rem, 6vw, 5.4rem);
-      letter-spacing: -0.06em;
-      line-height: 0.98;
-    }
-
-    .closing-actions {
-      display: flex;
-      flex-direction: column;
-      align-items: flex-start;
-      gap: 14px;
-    }
-
-    .closing-actions p {
-      margin-bottom: 10px;
-      color: rgba(255, 255, 255, 0.66);
-    }
-
     .footer {
       padding: 26px 0;
       border-top: 1px solid rgba(255, 255, 255, 0.10);
@@ -556,20 +523,7 @@
     }
 
     .footer-row {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      gap: 24px;
-    }
-
-    .footer-links {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 20px;
-    }
-
-    .footer a {
-      text-decoration: none;
+      text-align: center;
     }
 
     @media (max-width: 900px) {
@@ -580,8 +534,7 @@
       .hero-grid,
       .mission-grid,
       .research-grid,
-      .journey-grid,
-      .closing-grid {
+      .journey-grid {
         grid-template-columns: 1fr;
       }
 
@@ -613,9 +566,6 @@
         grid-template-columns: 1fr 1fr;
       }
 
-      .closing-actions {
-        max-width: 520px;
-      }
     }
 
     @media (max-width: 650px) {
@@ -678,8 +628,7 @@
         font-size: 12px;
       }
 
-      .section,
-      .closing {
+      .section {
         padding: 78px 0;
       }
 
@@ -706,10 +655,6 @@
         gap: 7px;
       }
 
-      .footer-row {
-        align-items: flex-start;
-        flex-direction: column;
-      }
     }
 
     @media (prefers-reduced-motion: reduce) {
@@ -934,28 +879,11 @@
       </div>
     </section>
 
-    <section class="closing" aria-labelledby="contact-heading">
-      <div class="shell closing-grid">
-        <h2 id="contact-heading">AI that learns from the world and helps shape what comes next.</h2>
-        <div class="closing-actions">
-          <p>Follow my research, connect professionally, or get in touch.</p>
-          <a class="button button-primary" href="mailto:gheshgheregh@gmail.com">Send me an email</a>
-          <a class="button button-secondary" href="https://www.linkedin.com/in/mohammad-azar-a00a0840/" target="_blank" rel="noopener noreferrer">
-            Connect on LinkedIn
-          </a>
-        </div>
-      </div>
-    </section>
   </main>
 
   <footer class="footer">
     <div class="shell footer-row">
       <span>© 2026 Mohammad Gheshlaghi Azar</span>
-      <div class="footer-links">
-        <a href="https://scholar.google.com/citations?hl=en&amp;user=AlTQrFcAAAAJ" target="_blank" rel="noopener noreferrer">Google Scholar</a>
-        <a href="https://www.linkedin.com/in/mohammad-azar-a00a0840/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
-        <a href="https://x.com/Learnius" target="_blank" rel="noopener noreferrer">X</a>
-      </div>
     </div>
   </footer>
 </body>
